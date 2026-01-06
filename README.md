@@ -1,6 +1,8 @@
 # Quantitative Analysis of Socioeconomic Indicators, Crime, and Educational Outcomes in Chicago Communities
 ***
 
+[![Quantitative Analysis Dashboard](visualizations/Quantitative%20Analysis%20Dashboard.png)](https://public.tableau.com/app/profile/samantha.taylor1796/viz/QuantitativeAnalysisofSocioeconomicIndicatorsCrimeandEducationalOutcomesinChicagoCommunities/Dashboard?publish=yes)
+
 ## Project Overview ☰
 
 This project analyzes Chicago community-level datasets, including census socioeconomic indicators, public school performance, and reported crime incidents. It aims to uncover patterns, trends, and correlations across social, educational, and safety metrics to inform data-driven insights for policymakers, educators, and analysts.
