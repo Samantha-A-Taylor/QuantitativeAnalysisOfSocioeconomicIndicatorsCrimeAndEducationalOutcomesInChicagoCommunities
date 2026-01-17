@@ -9,38 +9,78 @@ This project analyzes Chicago community-level datasets, including census socioec
 
 ## Key Takeaways 🔎
 
-       ✓ Merged census, school, and crime datasets to enable community-level comparisons  
-       ✓ Identified correlations between hardship index and crime counts, highlighting areas for further study  
-       ✓ Found weak but notable relationships between socioeconomic factors and student attendance  
-       ✓ Preserved meaningful missing data to maintain analytical accuracy  
-       ✓ Visualized spatial and temporal trends in crime and educational outcomes across Chicago  
+       ✓ Integrated census, school, and crime datasets for community-level analysis  
+       ✓ Revealed strong correlations between hardship index and crime concentration  
+       ✓ Identified weak-to-moderate links between socioeconomic factors and student attendance  
+       ✓ Preserved and handled missing data to maintain analytical integrity  
+       ✓ Visualized spatial and temporal trends, highlighting disparities across Chicago communities  
+       ✓ Extracted actionable insights to inform policymakers, educators, and urban planners  
 
 ## Key Features 🔑
 
+* **Project Framing & Analytical Design:**
+
+       ✓ Defined quantitative research question linking socioeconomic indicators, crime, and education across Chicago communities  
+       ✓ Identified key variables: income, unemployment, crime rates, graduation rates  
+       ✓ Designed cross-sectional, community-level analysis framework  
+       ✓ Formulated hypotheses on socioeconomic disadvantage, crime, and school attendance  
+
+* **Data Acquisition & Integration:**
+
+       ✓ Collected public datasets: Census, CPS Progress Reports, Chicago Crimes (2001–Present)  
+       ✓ Aggregated data at community level, joining via community area identifiers  
+       ✓ Assessed dataset compatibility and coverage for merged analysis  
+
+* **Data Cleaning & Preparation:**
+
+       ✓ Inspected for missing values, inconsistencies, outliers, and anomalies  
+       ✓ Standardized and transformed variables for analysis (rates, percentages, numeric fields) 
+       ✓ Handled incomplete records and ensured post-merge data integrity  
+
 * **Exploratory Data Analysis (EDA):**
 
-       ✓ Summarize census indicators, school metrics, and crime statistics individually  
-       ✓ Identify top and bottom communities for key socioeconomic indicators  
-       ✓ Visualize distributions and correlations using strip plots, heatmaps, and summary tables  
-       ✓ Examine temporal trends in crime and attendance  
-       ✓ Detect spatial clustering of incidents and community-level patterns  
+       ✓ Computed descriptive statistics and community-level distributions  
+       ✓ Compared socioeconomic, crime, and educational metrics across communities  
+       ✓ Identified initial patterns and trends linking hardship, crime, and attendance  
 
-* **Integrated Analysis:**
+* **Statistical Analysis:**
 
-       ✓ Merge datasets to create a unified view per community  
-       ✓ Explore relationships between socioeconomic hardship, per capita income, crime rates, and school attendance  
-       ✓ Conduct hypothesis testing using correlation analysis  
-       ✓ Highlight communities with higher risk or lower educational engagement for further investigation  
+       ✓ Conducted correlation analysis: socioeconomic indicators ↔ crime ↔ education  
+       ✓ Applied regression to assess predictive relationships  
+       ✓ Evaluated statistical significance and interpreted coefficients in real-world context  
+       ✓ Highlighted correlation vs. causation limitations  
 
-## Visualizations 📶
+* **Data Visualization:**
 
-       ✓ Correlation heatmaps of census indicators  
-       ✓ Scatterplots with regression lines for hardship vs crime and school attendance  
-       ✓ Strip plots of top/bottom communities per indicator  
-       ✓ Bar charts of school counts and average attendance per level  
-       ✓ Spatial plots of crime hotspots and community clustering  
+       ✓ Created scatterplots, summary tables, bar charts, and spatial plots to illustrate relationships 
+       ✓ Generated correlation heatmaps of census indicators and regression-line scatterplots for hardship vs crime and school
+          attendance  
+       ✓ Used strip plots to highlight top/bottom communities per indicator  
+       ✓ Visualized school counts and average attendance per level  
+       ✓ Mapped crime hotspots and community clustering to highlight disparities  
+       ✓ Designed visuals for clarity, comparison, storytelling, and analytical insight  
 
-## Technologies Used 🛠️
+* **Interpretation & Insight Generation:**
+
+       ✓ Converted statistical results into actionable insights  
+       ✓ Identified structural patterns of disadvantage, crime exposure, and education outcomes  
+       ✓ Contextualized findings within urban inequality and public policy  
+       ✓ Synthesized results into coherent community-level narratives  
+
+* **Reporting & Documentation:**
+
+       ✓ Authored structured Jupyter Notebook report with text, tables, and visualizations  
+       ✓ Documented data sources, methodology, analytical approach, and key findings  
+       ✓ Ensured reproducibility, transparency, and academic-style organization  
+       ✓ Addressed assumptions, limitations, and design constraints  
+
+* **Critical Evaluation & Limitations:**
+
+       ✓ Recognized observational data constraints, reporting bias, and cross-sectional limits  
+       ✓ Acknowledged potential confounders (school resources, policing, etc.)  
+       ✓ Recommended future analyses: longitudinal studies and expanded education metrics  
+
+## Technologies Used 
 
        ✓ Python  
        ✓ Pandas  
